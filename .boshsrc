@@ -1,0 +1,23 @@
+# .bochsrc configuration file
+
+# Memory size (in MB)
+megs: 32
+
+# ROM BIOS and VGA BIOS
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+# Boot from disk
+boot: disk
+
+# Log file
+log: bochslog.txt
+
+# Floppy disk image
+floppya: 1_44=disk.img, status=inserted
+
+# Hard disk image (optional)
+ata0-master: type=disk, path="disk.img", mode=flat, cylinders=20, heads=16, spt=63
+
+# Display settings (optional)
+display_library: sdl
