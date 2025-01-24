@@ -1,3 +1,5 @@
+# .bochsrc configuration file
+
 # Memory size (in MB)
 megs: 32
 
@@ -18,4 +20,4 @@ floppya: 1_44=disk.img, status=inserted
 ata0-master: type=disk, path="disk.img", mode=flat, cylinders=20, heads=16, spt=63
 
 # Display settings
-display_library: textconfig
+display_library: sdl
