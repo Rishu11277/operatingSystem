@@ -15,7 +15,7 @@ log: bochslog.txt
 floppya: 1_44=disk.img, status=inserted
 
 # Display settings
-display_library: sdl
+display_library: x
 
 # ATA hard disk (optional)
 ata0-master: type=disk, path="disk.img", mode=flat, cylinders=20, heads=16, spt=63
