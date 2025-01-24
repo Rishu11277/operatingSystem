@@ -4,4 +4,4 @@ dd if=boot.bin of=disk.img bs=512 count=1 conv=notrunc
 dd if=kernel.bin of=disk.img bs=512 seek=1 conv=notrunc
 git add boot.bin kernel.bin disk.img boot.asm kernel.c
 git commit -m "Add blahblah sheep"
-
+git push origin main
