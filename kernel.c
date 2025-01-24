@@ -9,10 +9,10 @@ void main() {
         i++;
     }
 
-    while (1) {}
+    while (1) {}  // Infinite loop to keep the kernel running
 }
 
 void _start() {
     main();
-    while (1) {}
+    while (1) {}  // Infinite loop
 }
